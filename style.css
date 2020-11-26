@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+::selection {
+  background-color: #633925;
+  color: rgb(232, 207, 202);
+}
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/bean.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+}
+.details {
+  padding-top: 250px;
+}
+.navbar {
+  background-color: #372218;
+  width: 100vw;
+}
+.navbar-brand {
+  background-color: rgb(232, 207, 202);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.var {
+  background-color: rgb(232, 207, 202);
+  background-size: auto;
+  width: 100vw;
+}
+.wel {
+  padding: 100px 0px 60px;
+}
+.set .row {
+  padding-bottom: 300px;
+}
+.set .row h4 {
+  padding: 40px 0px 20px;
+}
+.col-lg-4 img {
+  width: 100px;
+  height: 100px;
+}
+.visit {
+  background: url(./img/cafe.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.cont {
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  padding: 80px 50px;
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+
+.cont h1 {
+  padding-bottom: 20px;
+}
+.cont p {
+  padding-bottom: 40px;
+}
+.offer {
+  background: linear-gradient(
+      180deg,
+      #372218 0%,
+      rgba(232, 207, 202, 0.75) 100%
+    ),
+    url(./img/bean-bg.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+}
+.head {
+  color: white;
+  width: 100%;
+}
+.head h1 {
+  padding: 40px 50px 10px;
+}
+.head p {
+  width: 50%;
+  margin: auto;
+}
+.offer .row {
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+}
+hr {
+  background-color: white;
+}
+.item {
+  color: white;
+  padding: 30px 0px;
+}
+.item div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  width: 100%;
+}
+.contact {
+  overflow-x: hidden;
+  background-color: #372218;
+  width: 100%;
+  color: rgb(232, 207, 202);
+}
+.compliment {
+  overflow-x: hidden;
+  width: 103vw;
+  color: #633925;
+  background-color: rgb(232, 207, 202);
+  padding: 150px 0px 200px;
+}
+.compliment img {
+  padding-bottom: 20px;
+}
+.compliment h1 {
+  padding: 0px 50px 20px 50px;
+}
+.compliment p {
+  padding: 0px 70px 50px 70px;
+}
+.logo img {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.contact hr {
+  background-color: rgb(232, 207, 202);
+}
+.time {
+  display: flex;
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cont {
+    height: 300px;
+    width: 350px;
+    padding: 40px 25px;
+    left: 0;
+  }
+  .cont h1,
+  .cont p {
+    padding-bottom: 10px;
+  }
+  .col-lg-4 img {
+    width: 80px;
+    height: 80px;
+  }
+  .compliment h1 {
+    font-size: 30px;
+  }
+  .contact h5 {
+    font-size: 14px;
+  }
+  .contact h2 {
+    font-size: 20px;
+  }
+
+  .offer h3,
+  .offer h5 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 480px) and (max-width: 574px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cont {
+    height: 300px;
+    width: 350px;
+    padding: 40px 25px;
+    left: 0;
+  }
+  .cont h1 {
+    padding-bottom: 10px;
+  }
+  .cont p {
+    padding-bottom: 8px;
+  }
+  .contact h5 {
+    font-size: 12px;
+  }
+  .contact h2 {
+    font-size: 18px;
+  }
+
+  .offer h3,
+  .offer h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cont {
+    height: 300px;
+    width: 350px;
+    padding: 40px 25px;
+    left: 0;
+  }
+
+  .cont h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .cont p {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+  .contact h5 {
+    font-size: 12px;
+  }
+  .contact h2 {
+    font-size: 18px;
+  }
+
+  .offer h3,
+  .offer h5 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 280px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cont {
+    height: 300px;
+    width: 250px;
+    padding: 40px 25px;
+    left: 0;
+  }
+  .cont h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .cont p {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+  .contact h5 {
+    font-size: 12px;
+  }
+  .contact h2 {
+    font-size: 16px;
+  }
+  .contact {
+    overflow-x: hidden;
+  }
+  .offer h3,
+  .offer h5 {
+    font-size: 16px;
+  }
+}
